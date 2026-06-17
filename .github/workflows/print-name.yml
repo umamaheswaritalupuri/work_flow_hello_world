@@ -1,0 +1,13 @@
+name: print-name
+
+on:
+  push:
+    braches:
+      - main
+
+jobs:
+  simple:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print
+        run: echo "echo message"
