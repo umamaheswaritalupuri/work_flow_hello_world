@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print
-        run: echo "echo message"
+        run: echo "echo message..."
